@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Blob */
+
+.interactive{
+    position: absolute;
+
+}
+
+.blobWrapper{
+    overflow: visible;
+}
+.blob1, .blob2{
+    visibility: hidden;
+}
+
+.openBtn, .closeBtn {
+    padding: .8em 3em;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: visible;
+}
+
+/* Ice cream */
+
+.cream-bg{
+    background: lightskyblue;
+}
+
+.icecream{
+    height: 100vh;
+}
+
+.end{
+    visibility: hidden;
+}
